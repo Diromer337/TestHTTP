@@ -2,7 +2,6 @@ import json
 import asyncio
 import aiohttp
 import pytest
-import requests
 
 
 async def get_current_test(url, test_name, test):
