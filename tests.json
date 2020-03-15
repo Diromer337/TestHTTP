@@ -1,0 +1,94 @@
+{
+	"42": {
+		"test": {
+			"string": "42"
+		},
+		"response": {
+			"number": 6
+		}
+	},
+	"simple": {
+		"test": {
+			"string": "3bc3249lk"
+		},
+		"response": {
+			"number": 21
+		}
+	},
+	"empty": {
+		"test": {
+			"string": ""
+		},
+		"response": {
+		}
+	},
+	"single": {
+		"test": {
+			"string": "a"
+		},
+		"response": {
+		}
+	},
+	"single_digit": {
+		"test": {
+			"string": "8"
+		},
+		"response": {
+			"number": 8
+		}
+	},
+	"not_string": {
+		"test": {
+			"string": 7
+		},
+		"response": {
+		}
+	},
+	"hard": {
+		"test": {
+			"string": "-12312we3-=v2b4nv2c73n345734t5"
+		},
+		"response": {
+			"number": 61
+		}
+	},
+	"alphabet": {
+		"test": {
+			"string": "abcdefghijklmnopqrstuvwxyz"
+		},
+		"response": {
+			"number": 0
+		}
+	},
+	"only_digits": {
+		"test": {
+			"string": "0123456789"
+		},
+		"response": {
+			"number": 45
+		}
+	},
+	"spec_chars": {
+		"test": {
+			"string": "£$d21ds<32:>we"
+		},
+		"response": {
+			"number": 8
+		}
+	},
+	"invalid_field_name": {
+		"test": {
+			"str": "a12b42"
+		},
+		"response": {
+		}
+	},
+	"unicode": {
+		"test": {
+			"string": "hey2\u2665"
+		},
+		"response": {
+			"number": 2
+		}
+	}
+}
