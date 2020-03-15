@@ -20,7 +20,7 @@ python3 -m pytest test.py
   ```
   {"number": 6}
   ```
-2. Символ '<' 
+2. Символ '<' вызывает отключение от сервера
  - Пример запроса
   ```
   {"string": "32a>"}
@@ -31,5 +31,5 @@ python3 -m pytest test.py
   ```
   - Фактический результат
   ```
-  {"number": 6}
+  http.client.RemoteDisconnected: Remote end closed connection without response
   ```
