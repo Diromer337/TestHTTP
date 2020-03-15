@@ -4,7 +4,7 @@
 python3 -m pytest test.py
 ```
 ## Результат выполнения
-![Результаты тестов](https://github.com/Diromer337/TestHTTP/tree/master/test_res/test_res.png)
+![](https://github.com/Diromer337/TestHTTP/blob/master/test_res/test_res.png?raw=true)
 ## Обнаруженные баги
 В результате выполнения тестов и с помощью ручного тестирования были обнаружены следующие баги
 1. Символ 'i' воспринимается сервером как символ '1'
