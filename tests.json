@@ -44,6 +44,22 @@
 		"response": {
 		}
 	},
+	"escape_sequence": {
+		"test": {
+			"string": "2\na\rb2\t"
+		},
+		"response": {
+			"number": 4
+		}
+	},
+	"cyrillic": {
+		"test": {
+			"string": "кл9012ок"
+		},
+		"response": {
+			"number": 12
+		}
+	},
 	"hard": {
 		"test": {
 			"string": "-12312we3-=v2b4nv2c73n345734t5"
