@@ -70,7 +70,7 @@ class TestS:
 		output = TestS.answers_dict[test_name]
 		assert test_output == output
 
-	def test__empty(self):
+	def test_empty(self):
 		test_name = 'empty'
 		test_output = TestS.tests[test_name]['response']
 		output = TestS.answers_dict[test_name]
