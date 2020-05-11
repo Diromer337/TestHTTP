@@ -52,7 +52,7 @@ def get_big_str():
 def read_config():
 	config = configparser.ConfigParser()
 	config.read('config.ini')
-	return [config['default']['file'], config['default']['url']]
+	return config['default']['file'], config['default']['url']]
 
 
 class TestS:
