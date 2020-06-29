@@ -1,4 +1,4 @@
-# TestHTTP
+# TestHTTP (тестовое задание на должность QA в Сбербанк)
 ## Запуск тестов
 ```
 python3 -m pytest test.py
